@@ -1050,16 +1050,16 @@ h3 {
 	margin-bottom: 6px;
 }
 
-.services_container__inner_box:hover {
+.active_box {
 	width: 50%;
 }
 
-.services_container__inner_box:hover .inner_box__body {
+.active_box .inner_box__body {
 	width: 100%;
 }
 
-.services_container__inner_box:hover .inner_box__body .box_title,
-.services_container__inner_box:hover .inner_box__body .box_img {
+.active_box .inner_box__body .box_title,
+.active_box .inner_box__body .box_img {
 	visibility: visible;
 	transition: all .2s;
 	transition-delay: .2s;

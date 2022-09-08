@@ -59,6 +59,12 @@ window.onload = function() {
     linkHighlight('.nav__link');
 
 })(jQuery);
+$(document).ready(function() {
+    $(".services_container__inner_box").hover(function () {
+        $(this).addClass('active_box');
+        $(this).siblings().removeClass('active_box');
+    });
+});
 (function($) {
 
     function smoothScroll(link) {
