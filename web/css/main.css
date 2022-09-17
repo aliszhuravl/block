@@ -1271,6 +1271,12 @@ h3 {
 	margin-bottom: 4px;
 }
 
+.active_box .inner_box__body {
+	width: 100%;
+	height: auto !important;
+	padding: 12px 32px !important;
+}
+
 }
 
 @media (max-width: 640px) {
