@@ -641,8 +641,6 @@ h3 {
 .page__item {
 	margin-bottom: 90px;
 	background-color: transparent;
-	background-image: url('../img/gr.png');
-	background-repeat: repeat;
 }
 
 .footer {
