@@ -8,7 +8,7 @@
     <title>vero.team — digital агентство</title>
 </head>
 <body>
-<div class="page-container page-main">
+<div class="page-container page-main page-about">
     <header class="header">
         <div class="header__inner">
             <div class="menu">
@@ -21,7 +21,7 @@
                 <div class="menu_vertical">
                     <ul class="list">
                         <li><a href="about.html" class="link link_menu">About us</a></li>
-                        <li><a href="#" class="link link_menu">Services</a></li>
+                        <li><a href="services.html" class="link link_menu">Services</a></li>
                         <li><a href="cases.html" class="link link_menu">Cases</a></li>
                         <li><a href="contact.html" class="link link_menu">Contacts</a></li>
                     </ul>
@@ -36,8 +36,65 @@
         <div class="page__inner">
             <section class="page__item hero_block">
                 <div class="hero_block__container">
-                    <img src="img/about.svg" alt="#">
-                    <p class="hero_text">Мы — творческая команда дизайнеров, разработчиков, стратегов и продюсеров, создающих качественные веб-сайты</p>
+                    <div class="hero desktop">
+                        <div class="img_container">
+                            <img class='desktop' src="img/about.svg" alt="#">
+                            <div class="reel_box">
+                                <a href="#"><img src="img/reel.gif" alt="#"></a>
+                            </div>
+                        </div>
+
+                        <div class="main_text">
+                            <p>Мы — творческая команда дизайнеров, разработчиков и стратегов, создающих веб-сайты на высоте.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__item values">
+                <div class="section_header">
+                    <h2>Наши ценности</h2>
+                </div>
+                <div class="values_container">
+                    <div class="values_container__item">
+                        <div class="values_container__item_point">
+                            <img src="img/01.svg" alt="">
+                        </div>
+                        <div class="values_container__item_text">
+                            <p class="value_name">Less is more</p>
+                            <p class="value_text">Меньше значит больше. Простыми словами — это органичный минимализм. Это касается не только дизайна, но и подхода в целом.</p>
+                        </div>
+                    </div>
+
+                    <div class="values_container__item">
+                        <div class="values_container__item_point">
+                            <img src="img/02.svg" alt="">
+                        </div>
+                        <div class="values_container__item_text">
+                            <p class="value_name">Важность бренда</p>
+                            <p class="value_text">Мы не сторонники клишированных решений и не боимся создавать новое, тем самым подчеркивая индивидуальность вашего бренда.</p>
+                        </div>
+                    </div>
+
+                    <div class="values_container__item">
+                        <div class="values_container__item_point">
+                            <img src="img/03.svg" alt="">
+                        </div>
+                        <div class="values_container__item_text">
+                            <p class="value_name">Мы решаем задачу</p>
+                            <p class="value_text">Мы не работаем по одной схеме. Мы решаем задачу каждого клиента с помощью тех инструментов, которые
+                                для этого требуются.</p>
+                        </div>
+                    </div>
+
+                    <div class="values_container__item">
+                        <div class="values_container__item_point">
+                            <img src="img/04.svg" alt="">
+                        </div>
+                        <div class="values_container__item_text">
+                            <p class="value_name">Команда</p>
+                            <p class="value_text">Мы — сильные и опытные профессионалы, понимающие важность взаимодействия с другими участниками проекта с самого начала для достижения лучшего результата.</p>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="page__item">
@@ -59,16 +116,16 @@
                             </div>
                         </div>
                         <div class="right">
-                            <img src="img/case_01.png" alt="#" class="case_img">
+                            <img src="img/case_020.jpg" alt="#" class="case_img_cover">
+                            <img src="img/case_02.jpg" alt="#" class="case_img case_img_back">
                         </div>
                     </div>
                     <div class="cases_block__item">
                         <div class="left">
                             <div class="case_info">
-                                <p class="case_name">Zelichonok.photo</p>
+                                <p class="case_name">Стройкомплекс</p>
                                 <p class="case_text">
-                                    The first step was to find common ground with the client with clear and selling marketing packaging.
-                                </p>
+                                    Компания «Стройкомплекс» занимается проектированием и строительством жилой, коммерческой и государственной недвижимости.</p>
                             </div>
                             <div class="case_links">
                                 <a class='link_ellipse' href="#"><p>Behance</p><span class="hover_ellipse"></span></a>
@@ -76,16 +133,15 @@
                             </div>
                         </div>
                         <div class="right">
-                            <img src="img/case_01.png" alt="#" class="case_img">
+                            <img src="img/case_010.jpg" alt="#" class="case_img_cover">
+                            <img src="img/case_01.png" alt="#" class="case_img case_img_back">
                         </div>
                     </div>
                     <div class="cases_block__item">
                         <div class="left">
                             <div class="case_info">
-                                <p class="case_name">Zelichonok.photo</p>
-                                <p class="case_text">
-                                    The first step was to find common ground with the client with clear and selling marketing packaging.
-                                </p>
+                                <p class="case_name">Dominov</p>
+                                <p class="case_text">The first step was to find common ground with the client with clear and selling marketing packaging.</p>
                             </div>
                             <div class="case_links">
                                 <a class='link_ellipse' href="#"><p>Behance</p><span class="hover_ellipse"></span></a>
@@ -93,7 +149,8 @@
                             </div>
                         </div>
                         <div class="right">
-                            <img src="img/case_01.png" alt="#" class="case_img">
+                            <img src="img/case_030.jpg" alt="#" class="case_img_cover">
+                            <img src="img/case_03.jpg" alt="#" class="case_img case_img_back">
                         </div>
                     </div>
                     <div class="more_btn">
@@ -104,7 +161,8 @@
             </section>
             <section class="page__item">
                 <div class="image_item">
-                    <img src="img/rost.svg" alt="#">
+                    <img class="desktop" src="img/rost.svg" alt="#">
+                    <img class="mobile" src="img/we_mobile.svg" alt="#">
                 </div>
                 <div class="adv_block">
                     <div class="adv_block__item">
@@ -141,7 +199,7 @@
             </section>
             <section class="page__item">
                 <div class="section_header form_header">
-                    <h2>Давайте обсуждать идеи вместе</h2>
+                    <h2>Стать клиентом</h2>
                 </div>
                 <div class="form">
                     <div class="form_left">
